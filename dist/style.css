@@ -18,10 +18,19 @@ body {
   
   #first {
     margin-top: 30px;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    font-weight: 30;
+
   }
   
   #second {
     margin-bottom: 20px;
+    margin-top: 4px;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    font-weight: 30;
+    
   
   }
   
@@ -49,6 +58,7 @@ body {
       display: inline-block;
       margin-right: 10px;
       font-size: 18px;
+    
   }
   
   .navitem a {
@@ -169,7 +179,9 @@ body {
     color: black;
    
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+    color: #303030;
+     /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
@@ -191,7 +203,8 @@ body {
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: black;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+    color: #303030;
     font-size: 14px;
     padding: 12px 14px;
     text-decoration: none;
@@ -260,4 +273,23 @@ body {
     margin-left: 100px;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
+  }
+  .phone  a{
+    text-decoration: none;
+    color: #00468b;
+  }
+
+  .phone a:hover {
+    text-decoration: underline;
+  }
+
+  .test {
+    font-family: 'Helvetica';
+    color: orange;
+  }
+
+  .resizecrest {
+    height: auto;
+    width: 4.5%;
+    float: left;
   }
