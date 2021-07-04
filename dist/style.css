@@ -293,3 +293,25 @@ body {
     width: 4.5%;
     float: left;
   }
+/*
+  .notification {
+    padding-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+  }*/
+
+  .rush {
+    text-align: center;
+  }
+
+  .location {
+    font-weight: bold;
+  }
+
+  .resizevideo {
+
+    display: block; 
+    width: auto; 
+    margin: 0 auto;  
+
+    margin-bottom: 20px;
+}
